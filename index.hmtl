@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SimpleForm</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <section class="review__form">
+        <fieldset class="review__author">
+            <legend class="title">Представьтесь:</legend>
+                <div class="author__block">
+                    <label for="name">Имя*:</label>
+                    <input type="text" id="name" name="name" placeholder="Петр" autofocus="">
+                </div>
+                <div class="author__block">
+                    <label for="surname">Фамилия*:</label>                        
+                    <input type="text" id="surname" name="surname" placeholder="Иванов">
+                </div>
+                <div class="author__block">
+                    <label for="">Отчество:</label>
+                    <input type="text" id="otchestvo" name="otchestvo" placeholder="Александрович">
+                </div>
+        </fieldset>
+
+        <fieldset class="contacts">
+            <legend class="title  title__desktop">Контактная информация:</legend>                    
+                <div class="contacts__block  contacts__block-phone">
+                    <label for="phone">Контактный телефон*:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Введите телефон">
+                    <div class="phone-icon"><img src="img/icon-phone.svg" width="18" height="18"></div>
+                </div>
+                    
+                <div class="contacts__block  contacts__block-email">
+                    <label for="email">Электронная почта*:</label>
+                    <input type="email" id="email" name="email" pattern=".+@globex.com" placeholder="Введите e-mail">
+                <div class="mail-icon"><img src="img/icon-mail.svg" width="18" height="18" alt=""></div>
+            </div>
+        </fieldset>
+    <section>
+<html>
